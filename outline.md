@@ -21,6 +21,10 @@
 - Load via require
 - Execute behaviors
 
+### Advanced Module Topics [Chris]
+- How does nodejs find a module?
+- How are circular references handled?
+
 ## Module 2 - Module Design Patterns
 ### Exports a Namespace [Jeremy]
 ### Exports a Function [Chris]

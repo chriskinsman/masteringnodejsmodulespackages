@@ -72,6 +72,25 @@
 - add functionality to index.js
 - git commit
 
+### Advanced Package.json
+- index
+- keywords
+- homepage
+- bugs
+- contributors
+- files
+- main
+- bin
+- scripts
+- engines
+- private
+
+### Advanced Package Structure
+- .npmignore
+- server.js
+- bin
+- lib
+
 ## Module 5 - Publishing Packages
 
 ### Private [Chris]

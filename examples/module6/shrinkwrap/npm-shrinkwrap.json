@@ -1,0 +1,40 @@
+{
+  "name": "shrinkwrap",
+  "version": "1.0.0",
+  "dependencies": {
+    "redis-ratelimit": {
+      "version": "0.0.3",
+      "from": "redis-ratelimit@*",
+      "resolved": "https://registry.npmjs.org/redis-ratelimit/-/redis-ratelimit-0.0.3.tgz",
+      "dependencies": {
+        "redis": {
+          "version": "0.12.1",
+          "from": "redis@>=0.12.1 <0.13.0",
+          "resolved": "https://registry.npmjs.org/redis/-/redis-0.12.1.tgz"
+        },
+        "async": {
+          "version": "0.9.2",
+          "from": "async@>=0.9.0 <0.10.0",
+          "resolved": "https://registry.npmjs.org/async/-/async-0.9.2.tgz"
+        },
+        "hiredis": {
+          "version": "0.1.17",
+          "from": "hiredis@>=0.1.17 <0.2.0",
+          "resolved": "https://registry.npmjs.org/hiredis/-/hiredis-0.1.17.tgz",
+          "dependencies": {
+            "bindings": {
+              "version": "1.2.1",
+              "from": "bindings@*",
+              "resolved": "https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz"
+            },
+            "nan": {
+              "version": "1.1.2",
+              "from": "nan@>=1.1.0 <1.2.0",
+              "resolved": "https://registry.npmjs.org/nan/-/nan-1.1.2.tgz"
+            }
+          }
+        }
+      }
+    }
+  }
+}
